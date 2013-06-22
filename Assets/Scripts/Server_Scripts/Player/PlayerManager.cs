@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
-#pragma strict
-[RequireComponent(typeof(NetworkView))]
+
+[RequireComponent(typeof(NetworkView))] //The script requires an attatched network view to run
 public class PlayerManager : MonoBehaviour {
 	
 	public float speed
